@@ -68,15 +68,24 @@ textarea {
   color: white;
 }
 
-.saveBtn, .removeBtn {
+.removeBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
+  font-size: 20px;
 }
 
-.saveBtn i:hover, .removeBtn i:hover {
+.saveBtn {
+  background-color: #06aed5;
+  border-left: 1px solid black;
+  color: white;
   font-size: 20px;
+}
+
+.saveBtn i:hover,
+.removeBtn i:hover {
+  font-size: 30px;
   transition: all 0.3s ease-in-out;
 }
