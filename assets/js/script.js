@@ -71,7 +71,7 @@ function updateTaskSlots() {
       //add class ".past"
       $(this).find(".description").addClass("past");
       //disable textarea from past hours
-      $(this).find(".description").attr("readonly", true);
+      // $(this).find(".description").attr("readonly", true);
       //if its equal to the current hour
     } else if (hour == currentHour) {
       //add class ".present"
